@@ -19,3 +19,6 @@ def in_extremis_decision_aid(PC1, PC2): #For use when confronted with the classi
         return 'Treat the Ischaemia with Antiplatelet/Heparin/Thrombolysis - call cardiologist/respiratory consultant'        
     else:
         return 'Apologies, These conditions are not extreme enough for the in_extremis decision aid, please pick up your Cheese and Onion'
+
+in_extremis_decision_aid('Massive Pneumothorax', 'Ischaemic Shock')
+in_extremis_decision_aid('Uncontrolled Seizures', 'Uncontrolled Seizures')
