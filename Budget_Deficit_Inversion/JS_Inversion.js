@@ -7,3 +7,6 @@ In any language come up with a simple function to invert any value and produce t
 function makeNegative(number) {
 return -number
 }
+
+# Adam Morley:
+var neg = (number) => -number;
