@@ -1,0 +1,21 @@
+def in_extremis_decision_aid(PC1, PC2): #For use when confronted with the classic dual pathology of 'popped_lung' and ischaemic injury or fits ;)
+    if PC1 == 'Massive Pneumothorax' and PC2 == 'Uncontrolled Seizures':
+        return 'Treat the Seizures First with Diazepam & a 18mg/Kg Leviceractam loading dose'
+    elif PC1 == 'Uncontrolled Seizures' and PC2 == 'Ischaemic Shock':
+        return 'Treat the Ischaemia First with Antiplatelet/Heparin/Thrombolysis - call cardiologist/respiratory consultant'
+    elif PC1 == 'Ischaemic Shock' and PC2 == 'Massive Pneumothorax':
+        return 'Treat the Pneumothorax First with Emergency needle aspiration followed by chest drain insertion'
+    elif PC1 == 'Uncontrolled Seizures' and PC2 == 'Massive Pneumothorax':
+        return 'Treat the Seizures First with Diazepam & a 18mg/Kg Leviceractam loading dose'
+    elif PC1 == 'Ischaemic Shock' and PC2 == 'Uncontrolled Seizures':
+        return 'Treat the Ischaemia First with Antiplatelet/Heparin/Thrombolysis - call cardiologist/respiratory consultant'
+    elif PC1 == 'Massive Pneumothorax' and PC2 == 'Ischaemic Shock':
+        return 'Treat the Pneumothorax First with Emergency needle aspiration followed by chest drain insertion'
+    elif PC1 == 'Uncontrolled Seizures' and PC2 == 'Uncontrolled Seizures':
+        return 'Treat the Seizures with Diazepam & a 18mg/Kg Leviceractam loading dose'        
+    elif PC1 == 'Massive Pneumothorax' and PC2 == 'Massive Pneumothorax':
+        return 'Treat the Pneumothorax with Emergency needle aspiration followed by chest drain insertion' 
+    elif PC1 == 'Ischaemic Shock' and PC2 == 'Ischaemic Shock':
+        return 'Treat the Ischaemia with Antiplatelet/Heparin/Thrombolysis - call cardiologist/respiratory consultant'        
+    else:
+        return 'Apologies, These conditions are not extreme enough for the in_extremis decision aid, please pick up your Cheese and Onion'
