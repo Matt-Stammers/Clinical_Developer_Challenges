@@ -22,3 +22,5 @@ def in_extremis_decision_aid(PC1, PC2): #For use when confronted with the classi
 
 in_extremis_decision_aid('Massive Pneumothorax', 'Ischaemic Shock')
 in_extremis_decision_aid('Uncontrolled Seizures', 'Uncontrolled Seizures')
+
+# see it in action at: https://goo.gl/r3QrFZ
