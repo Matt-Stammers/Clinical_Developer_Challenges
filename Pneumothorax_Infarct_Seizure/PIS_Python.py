@@ -36,3 +36,55 @@ in_extremis_decision_aid('Massive Pneumothorax', 'Ischaemic Shock')
 in_extremis_decision_aid('Uncontrolled Seizures', 'Uncontrolled Seizures')
 
 # see it in action at: https://goo.gl/r3QrFZ
+
+
+"""
+Medical Rock Paper Sissors.
+
+Quick and dirty task from
+https://www.facebook.com/groups/257859457974818/
+
+Done by Stefan Mitrasinovic in the CDC
+"""
+print "What conditions do your patients have?"
+cond1 = "Massive Pneumothorax"
+cond2 = "Uncontrolled Seizure"
+cond3 = "Ischemic Shock"
+print """
+1) %s
+2) %s
+3) %s
+""" % (cond1, cond2, cond3)
+
+
+def conditionSaver(num):
+    """Return condition number."""
+    while True:
+        try:
+            temp = abs(int(input("Patient %d: " % num)))
+            if temp > 3 or temp == 0:
+                raise ValueError
+            return temp
+        except ValueError:
+            print "Please input a number (1-3) for the condition."
+
+
+patient1 = conditionSaver(1)
+patient2 = conditionSaver(2)
+
+
+def printChoice(condition):
+    """Print the correct condition to treat first."""
+    print "You should treat the patient with the %s first" % condition
+
+
+condCode = patient1 + patient2
+if condCode == 3:
+    printChoice(cond2)
+elif condCode == 4:
+    printChoice(cond1)
+elif condCode == 5:
+    printChoice(cond3)
+else:
+    print "Something went wrong"
+
