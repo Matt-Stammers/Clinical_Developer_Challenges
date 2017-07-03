@@ -1,5 +1,17 @@
 # My Version
-
+def bed_day_calculator(n, x):
+	"""Function will Calculate Bed Days."""
+	if n == 0:
+	    return 0
+	elif n < 3:
+	    return n * x + 1
+	elif n < 8:
+	    return (n * x) * 2
+	else:
+	    return (n * x) * 3
+	
+Total = bed_day_calculator(1, 240) + bed_day_calculator(2, 143) + bed_day_calculator(3, 490) + bed_day_calculator(4, 136) + bed_day_calculator(5, 59) + bed_day_calculator(6, 90) + bed_day_calculator(7, 20) + bed_day_calculator(8, 137) + bed_day_calculator(13, 70) + bed_day_calculator(15, 36) + bed_day_calculator(25, 26)
+print(Total)
 
 # Stefan Mitrosinovic's Version
 """
