@@ -4,7 +4,7 @@ def bed_day_calculator(n, x):
 	if n == 0:
 	    return 0
 	elif n < 3:
-	    return n * x + 1
+	    return n * x + (x * 1)
 	elif n < 8:
 	    return (n * x) * 2
 	else:
