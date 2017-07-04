@@ -9,10 +9,7 @@ A sample of the CCG's array is given below:
 Your code function should come up with an answer to this array, and then the CCG will be happy to commission you.
 
 '''
-
-# This Function takes the CCG Test Array and returns the sum, count, valid count and mean ;)
-
-CCG_Array = [1,5,7,81,1,4,7,8,-34,96,2,5,8,1,-124,753,9,5,4,3,13,7,90,5,1,4,8,3,6,7,7,8,500,-100,2,6,7,2,9,1,8,9,3,6]
+4,3,13,7,90,5,1,4,8,3,6,7,7,8,500,-100,2,6,7,2,9,1,8,9,3,6]
 
 CCG_raw_count = len(CCG_Array)
 CCG_raw_sum = sum(CCG_Array)
@@ -43,3 +40,5 @@ print(CCG_sum)
 print(CCG_valid_count)
 CCG_mean = CCG_sum / CCG_valid_count
 print(CCG_mean)
+
+
