@@ -30,7 +30,7 @@ const surveyCalculator = (arr) => {
   console.log(`Which results in a mean of ${mean.toFixed(2)}`);
 }
 
-# Adam Morley's Version
+# Adam Morleys Version
 
 surveyCalculator(votes);
 
