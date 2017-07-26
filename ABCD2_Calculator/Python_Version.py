@@ -9,7 +9,7 @@ def age_score(age):
         return 1
     else:
         return 0
-
+        
 def blood_pressure(systolic, diastolic):
     if systolic >= 140 or diastolic >= 90:
         return 1
@@ -42,10 +42,19 @@ print('Please input the age of the patient:')
 
 while True:
   try:
-    age = int(input('>'))
+    a = int(input('>'))
     print()
-    age_score(age)
+    print(age_score(a))
+    b = int(input('>'))
+  except ValueError:
+    print('Please input a number:')
+    
+while True:
+  try:
+    a = int(input('>'))
     print()
+    print(age_score(a))
+    b = int(input('>'))
   except ValueError:
     print('Please input a number:')
     
