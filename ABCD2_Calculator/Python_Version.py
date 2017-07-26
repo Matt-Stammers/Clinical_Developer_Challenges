@@ -2,7 +2,7 @@
 Basic ABCD2 Score calculator
 '''
 
-print('This is the basic ABCD2 Score calculator')
+print('This is the basic ABCD2 Score calculator. It will take in the age, systolic blood pressure, diastolic blood pressure, basic clinical features, duration and diabetic status and return the abcd2 score')
 
 def age_score(age):
     if age >= 60:
@@ -16,7 +16,7 @@ def blood_pressure(systolic, diastolic):
     else:
         return 0
 
-def clinical_score(speech_dist, unilat_weakness):
+def clinical_score(unilat_weakness, speech_dist):
     if unilat_weakness == True:
         return 2
     elif speech_dist == True:
@@ -39,6 +39,28 @@ def diabetes(diabetic):
         return 0
 
 print('Please input the age of the patient:')
+a = int(input('>'))
+print('Please input the systolic blood pressure in mmHg')
+b = int(input('>'))
+print('Please input the diastolic blood pressure in mmHg')
+c = int(input('>'))
+print('Did the patient have unilateral weakness?')
+d = int(input('> True/False'))
+print('Did the patient have speech disturbance?')
+e = int(input('> True/False'))
+print('How long did the symptoms last? (in minutes)')
+f = int(input('>'))
+print('Is the patient diabetic?')
+g = int(input('> True/False'))
+
+pt_age = age_score(a)
+pt_bp = blood_pressure(b,c)
+pt_clinical = clinical_score(d,e)
+pt_duration = duration(f)
+pt_diabetic = diabetes(g)
+
+print('The ABCD2 score is:')
+
 
 while True:
   try:
@@ -57,4 +79,3 @@ while True:
     b = int(input('>'))
   except ValueError:
     print('Please input a number:')
-    
