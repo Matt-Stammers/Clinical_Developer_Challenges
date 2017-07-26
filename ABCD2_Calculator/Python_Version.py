@@ -59,23 +59,7 @@ pt_clinical = clinical_score(d,e)
 pt_duration = duration(f)
 pt_diabetic = diabetes(g)
 
+ABCD2_score = pt_age+pt_bp+pt_clinical+pt_duration+pt_diabetic
+
 print('The ABCD2 score is:')
-
-
-while True:
-  try:
-    a = int(input('>'))
-    print()
-    print(age_score(a))
-    b = int(input('>'))
-  except ValueError:
-    print('Please input a number:')
-    
-while True:
-  try:
-    a = int(input('>'))
-    print()
-    print(age_score(a))
-    b = int(input('>'))
-  except ValueError:
-    print('Please input a number:')
+print(ABCD2_score)
