@@ -1,0 +1,11 @@
+There were four submissions for this challenge and the respositories can be found here:
+
+1) One of them is a phone app by Adam Morley It can be accessed by downloading the ionic view app on the app/play store, signing up for an account and entering the code found only in the clin_devs facebook group
+
+2) This is myself and Michael Barry's version: http://abcd-score.herokuapp.com/app/index.html - Source code can be found here: https://github.com/B-raw/abcd-score
+
+3) This is Stefan Mitrosinovic's version: https://medcalc-akykixtvls.now.sh/ He is the hot favourite to win: https://github.com/Darkbladecr/medCalc
+
+4) This is Jeremy Thornton's version: https://bitbucket.org/ifknot/abcd2/src/9a0f3f1fc0a71de6a1338d21e7d09d6bae70082f/ABCD2_score/?at=master
+
+But who will triumph!
