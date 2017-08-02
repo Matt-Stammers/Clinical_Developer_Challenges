@@ -1,5 +1,5 @@
 '''
-Basic ABCD2 Score calculator
+Basic ABCD2 Score calculator - this was my original attempt at Python version of it - very roughly hashed out
 '''
 
 print('This is the basic ABCD2 Score calculator. It will take in the age, systolic blood pressure, diastolic blood pressure, basic clinical features, duration and diabetic status and return the abcd2 score')
