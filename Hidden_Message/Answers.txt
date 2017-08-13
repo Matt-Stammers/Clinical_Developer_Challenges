@@ -1,0 +1,2 @@
+Here is the 'official' best solution in Python: https://github.com/stuartbman/bio-seq 
+
