@@ -1,4 +1,4 @@
-# Clinical_Developer_Challenges
+# Clinical Developer Challenges
 
 Every week in the Clinical Developers Facebook Group we try to have a code challenge or competition.
 
