@@ -29,6 +29,6 @@ the function should be called staffing:
 
 so in Python it should begin:
 def staffing(staff-units, patients):
-#   return [HCA's, nurses]
+    return [HCA's, nurses]
 
 Happy coding!
