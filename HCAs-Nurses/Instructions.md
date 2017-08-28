@@ -27,7 +27,9 @@ However - (6, 25) => "Your hospital's got problems!"
 
 the function should be called staffing:
 
-so in Python it should begin:
+so in Python for instance it should begin:
 def staffing(staff-units, patients):
 
-Happy coding!
+There are many ways to solve it, so just because someone else did it one way doesn't mean there are not good alternatives also available.
+
+Happy clinician coding!
